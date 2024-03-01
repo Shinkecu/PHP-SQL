@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SingUp</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/fontawesome-all.min.js"></script>
+    <style>
+        .btn {
+            background-color: #99BDB3;
+            border-radius: 0;
+            color: aliceblue;
+            box-shadow: 0px 2px 2px rgb(75, 75, 75);
+            width: 30%;
+        }
+
+        a {
+            color: #dddddd;
+            text-decoration: none;
+        }
+
+        .main-bg{
+            background-image: url(img/cir.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: left bottom -100px;
+        }
+    </style>
+</head>
+
+<body style="background-color: #F9F9F9;">
+    <header>
+
+        <nav class="navbar navbar-expand-lg bg-light container-fluid">
+            <div class="container ">
+                <a class="navbar-brand" href="home.html">
+                    <img src="img/logo.png" alt="Bootstrap">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse row justify-content-between " id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-end">
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="home.html">Главаня</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">О нас</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="singup.html">Записаться</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="form.html">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <main class="main-bg mt-5 pb-5" >
+        <div class="container">
+            <div class="row">
+
+                <div class="col">
+                    <h5 class="display-5 mb-4">Запишитесь прямо сейчас!</h5>
+                </div>
+
+                <div class="col">
+                    <form>
+
+                        <div class="container text-center">
+                            <h5 class=" mb-4">Связаться с нами</h5>
+                            <div class="form-floating mb-4 mt-3">
+                                <input type="text" class="form-control" id="floatingInput" placeholder="text"
+                                    style="border-radius: 0%;">
+                                <label for="floatingInput">Введите имя</label>
+                            </div>
+                            <div class="form-floating mb-4">
+                                <input type="password" class="form-control" id="floatingPassword" placeholder="text"
+                                    style="border-radius: 0%;">
+                                <label for="floatingPassword">Номер телефона</label>
+                            </div>
+                            <div class="form-floating mb-1">
+                                <select class="form-select pt-1 pb-1" style="border-radius: 0%;" aria-label="Default select example">
+                                    <option selected>Выбрать центр</option>
+                                    <option value="1">Центр ИКТ</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                  </select>
+                            </div>
+                            <div class="form-check mb-4 text-start">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label " style="color: #dddddd;" for="flexCheckDefault">
+                                    Согласен на обработку данных
+                                </label>
+                            </div>
+                            <button type="submit " class="btn mb-3">Отправить</button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+
+    <footer class="py-4 " style="background-color: #5E5E5E; color: #dddddd">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-3 ">
+                    <div class="d-flex  align-items-center mb-2">
+                        <h6 class="m-0">Быстрые ссылки</h6>
+                    </div>
+
+                    <ul class="list-unstyled">
+                        <li><a href="#">Главная</a></li>
+                        <li><a href="#">Новости</a></li>
+                        <li><a href="#">О нас</a></li>
+                        <li><a href="#">Записаться</a></li>
+                        <li><a href="#">Контакты</a></li>
+
+                    </ul>
+                </div>
+
+                <div class="col-12 col-md-3 ">
+                    <div class="d-flex  align-items-center mb-2">
+                        <h6 class="m-0">Информация</h6>
+                    </div>
+
+                    <ul class="list-unstyled">
+                        <li><a href="#">Защита данных</a></li>
+                        <li><a href="#">Обработка данных</a></li>
+                        <li><a href="#">Тренера</a></li>
+                        <li><a href="#">Наши комплексы</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-12 col-md-3 ">
+                    <div class="d-flex  align-items-center mb-2">
+                        <h6 class="m-0">Социальные сети</h6>
+                    </div>
+
+                    <ul class="list-unstyled">
+                        <li><a href="#"><img src="img/vk_w.png" class="me-1" alt=""
+                                    style="width: 20px;">https://vk.com/public212087059 </a></li>
+                        <li><a href="#"><img src="img/tg_w.png" alt="" class="me-1"
+                                    style="width: 20px;">https://t.me/kp11mos</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-12 col-md-3 ">
+                    <div class="d-flex  align-items-center mb-2">
+                        <h6 class="m-0">Контакты</h6>
+                    </div>
+
+                    <ul class="list-unstyled">
+                        <li>Ленинградское ш., 13А</li>
+                        <li><img src="img/phone_w.png" style="width: 20px;" class="me-1"><a href="#">8 (499)
+                                150-45-04</a></li>
+                        <li><img src="img/cart.png" class="me-1" style="width: 20px;" alt=""><a href="#">Карта</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
